@@ -1,5 +1,5 @@
 {
-  "name": "react-contenteditable",
+  "name": "@ghostmonitor/react-contenteditable",
   "version": "3.3.5",
   "description": "React component representing an element with editable contents",
   "main": "./lib/react-contenteditable.js",

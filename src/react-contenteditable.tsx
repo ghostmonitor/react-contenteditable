@@ -1,6 +1,6 @@
-import * as React from 'react';
-import deepEqual from 'fast-deep-equal';
-import * as PropTypes from 'prop-types';
+import deepEqual from 'fast-deep-equal'
+import * as PropTypes from 'prop-types'
+import * as React from 'react'
 
 function normalizeHtml(str: string): string {
   return str && str.replace(/&nbsp;|\u202F|\u00A0/g, ' ');
@@ -90,7 +90,7 @@ export default class ContentEditable extends React.Component<Props> {
       el.innerHTML = this.props.html;
     }
     this.lastHtml = this.props.html;
-    replaceCaret(el);
+    // replaceCaret(el);
   }
 
   emitChange = (originalEvt: React.SyntheticEvent<any>) => {
